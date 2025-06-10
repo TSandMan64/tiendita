@@ -31,6 +31,10 @@ header
 }
 main
 {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-items: center;
 
 }
 footer
@@ -53,17 +57,82 @@ footer
     color: white;
     text-decoration: none;
 }
-.Destacados
+.sectoffer
 {
-
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+        padding: 10px 0px;
+}
+.destacados
+{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+}
+.card_destacados
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 32%;
+    min-height: 300px;
+    padding: 10px 0px 0px;
+}
+.img_card_destacados
+{
+    width: 90%;
 }
 .ofertas
 {
-
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card_ofertas
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 19%;
+    min-height: 200px;
+    padding: 10px 0px 0px;
+}
+.img_card_ofertas
+{
+    width: 90%;
 }
 .ultimos
 {
-
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card_ultimos
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 13%;
+    min-height: 130px;
+    padding: 10px 0px 0px;
+}
+.img_card_ultimos
+{
+    width: 90%;
 }
 .contacto
 {
